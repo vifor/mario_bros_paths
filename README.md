@@ -41,19 +41,19 @@ graph TD
     W8_4 --> FIN
 
     %% ATAJOS Y CAMINO MÁS RÁPIDO
-    % Warp Zone en 1-2
+    %% Warp Zone en 1-2
     W1_2 -- "Warp a Mundo 2" --> W2_1
     W1_2 -- "Warp a Mundo 3" --> W3_1
     W1_2 -- "Warp a Mundo 4" --> W4_1
 
-    % Warp Zone en 4-2
+    %% Warp Zone en 4-2
     W4_2 -- "Warp a Mundo 5" --> W5_1
     W4_2 -- "Warp a Mundo 6" --> W6_1
     W4_2 -- "Warp a Mundo 7" --> W7_1
     W4_2 -- "Warp a Mundo 8" --> W8_1
 
     %% --- Estilos para Claridad ---
-    % Estilo del camino más rápido (nodos verdes)
+    %% Estilo del camino más rápido (nodos verdes)
     style W1_1 fill:#9f9,stroke:#333,stroke-width:2px
     style W1_2 fill:#9f9,stroke:#333,stroke-width:2px
     style W4_1 fill:#9f9,stroke:#333,stroke-width:2px
@@ -64,10 +64,10 @@ graph TD
     style W8_4 fill:#9f9,stroke:#333,stroke-width:2px
     style FIN fill:#9f9,stroke:#333,stroke-width:2px
 
-    % Estilo de las conexiones (líneas)
+    %% Estilo de las conexiones (líneas)
     linkStyle default stroke:#ccc,stroke-width:1px,stroke-dasharray: 5 5
-    % Conexiones del camino rápido (verde)
+    %% Conexiones del camino rápido (verde)
     linkStyle 0,11,2,21,5,6,7,14 stroke:green,stroke-width:3px
-    % Conexiones de atajos alternativos (naranja)
+    %% Conexiones de atajos alternativos (naranja)
     linkStyle 15,16,18,19,20 stroke:orange,stroke-width:2px
 ```
