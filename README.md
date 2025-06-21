@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% --- Subgrafos para cada Mundo ---
     subgraph Mundo 1
@@ -69,3 +70,4 @@ graph TD
     linkStyle 0,11,2,21,5,6,7,14 stroke:green,stroke-width:3px
     % Conexiones de atajos alternativos (naranja)
     linkStyle 15,16,18,19,20 stroke:orange,stroke-width:2px
+```
